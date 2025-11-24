@@ -77,13 +77,14 @@ Run the following command to ensure Maven is installed and accessible:
    - Dependencies  
 5. VS Code generates and opens the project automatically  
 
+
 ---
 ### Step 3: Basic Configuration  
 Open:
- src/main/resources/application.properties
+src/main/resources/application.properties
 Add:
-  ####spring.application.name=springboot-fundamentals
-  ####server.port=8080
+spring.application.name=springboot-fundamentals
+server.port=8080
 ---
 
 ## 4. Project Folder Structure  
@@ -201,7 +202,7 @@ Below are the most commonly used annotations in Spring Boot essentials.
 ##### Marks a class as a service component that contains business logic.
 ---
 ## 7.6 @Repository  
-Marks a class or interface as a data access layer component.
+##### Marks a class or interface as a data access layer component.
 ---
 ## 7.7 @Entity  
 ##### Specifies that a class is a JPA entity mapped to a database table.
@@ -219,7 +220,7 @@ Marks a class or interface as a data access layer component.
 ## 7.12 Lombok Annotations  
 (Helps reduce boilerplate code)
 ### @Data  
-Generates getters, setters, equals, hashCode, and toString.
+##### Generates getters, setters, equals, hashCode, and toString.
 ---
 # 8. Hello World REST API
 
