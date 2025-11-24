@@ -1,7 +1,6 @@
 # Spring Boot Fundamentals – Group 4  
 This repository contains the Group 4 assignment demonstrating the fundamentals of Spring Boot.  
 It includes a complete project setup, Maven configuration steps, folder structure explanation, and a basic REST API implementation.  
-This document is written in IEEE-style formatting and prepared for software engineering students learning Spring Boot.
 
 ---
 
