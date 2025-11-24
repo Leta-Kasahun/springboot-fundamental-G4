@@ -34,14 +34,6 @@ Spring Boot is a framework built on top of Spring, designed to simplify enterpri
 It eliminates boilerplate configurations, provides an embedded server, and uses convention-over-configuration principles to accelerate development.
 
 ---
-
-
-## 4. Installation and Configuration Steps (Maven + VS Code)
-
-This section explains **line-by-line configuration** for Maven and the Spring Boot project.
-
----
-
 # 3. ⚙️ Installation and Configuration Steps (Maven + VS Code)
 
 ### Step 1: Verify Maven  
