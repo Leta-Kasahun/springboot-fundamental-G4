@@ -181,47 +181,22 @@ Generates boilerplate code such as getters, setters, and constructors.
 </dependency>
 
 # 7. Common Annotation
+Below are the most commonly used Spring Boot annotations presented in a clean table format.
 
-Below are the most commonly used annotations in Spring Boot essentials.
+| Annotation | Purpose |
+|-----------|---------|
+| `@SpringBootApplication` | Marks the main class of a Spring Boot application and enables auto-configuration. |
+| `@RestController` | Creates REST controllers that return JSON/text responses. |
+| `@RequestMapping` | Defines the base URL path for a controller or method. |
+| `@GetMapping` / `@PostMapping` / `@PutMapping` / `@DeleteMapping` | Maps HTTP requests (GET, POST, PUT, DELETE) to controller methods. |
+| `@Service` | Marks a class as part of the service layer containing business logic. |
+| `@Repository` | Marks a class/interface as a data access layer component. |
+| `@Entity` | Indicates that a class is a JPA entity mapped to a database table. |
+| `@Id` | Identifies the primary key field in a JPA entity. |
+| `@Autowired` | Performs automatic dependency injection. |
+| `@Bean` | Declares a method that returns a Spring-managed bean. |
+| `@Data` (Lombok) | Generates getters, setters, equals, hashCode, and toString automatically. |
 
----
-
-## 7.1 @SpringBootApplication  
-  ##### Marks the main entry point of a Spring Boot application and enables auto-configuration.
----
-## 7.2 @RestController  
-##### Defines a controller where each method returns a REST response (JSON/text).
----
-## 7.3 @GetMapping / @PostMapping / @PutMapping / @DeleteMapping  
-##### Maps specific HTTP methods to controller methods.
----
-## 7.4 @RequestMapping  
-##### Defines the main URL path for a controller or method.
----
-## 7.5 @Service  
-##### Marks a class as a service component that contains business logic.
----
-## 7.6 @Repository  
-##### Marks a class or interface as a data access layer component.
----
-## 7.7 @Entity  
-##### Specifies that a class is a JPA entity mapped to a database table.
----
-## 7.8 @Id  
-##### Marks the primary key field of an entity.
----
-
-## 7.10 @Autowired  
-##### Enables automatic dependency injection.
----
-## 7.11 @Bean  
-##### Creates and registers a Spring-managed bean.
----
-## 7.12 Lombok Annotations  
-(Helps reduce boilerplate code)
-### @Data  
-##### Generates getters, setters, equals, hashCode, and toString.
----
 # 8. Hello World REST API
 
 The following example demonstrates a simple REST endpoint using Spring Boot.
