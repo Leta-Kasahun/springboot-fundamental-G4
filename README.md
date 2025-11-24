@@ -80,10 +80,10 @@ Run the following command to ensure Maven is installed and accessible:
 ---
 ### Step 3: Basic Configuration  
 Open:
-src/main/resources/application.properties
+ src/main/resources/application.properties
 Add:
-spring.application.name=springboot-fundamentals
-server.port=8080
+  ####spring.application.name=springboot-fundamentals
+  ####server.port=8080
 ---
 
 ## 4. Project Folder Structure  
@@ -189,32 +189,32 @@ Below are the most commonly used annotations in Spring Boot essentials.
   ##### Marks the main entry point of a Spring Boot application and enables auto-configuration.
 ---
 ## 7.2 @RestController  
-Defines a controller where each method returns a REST response (JSON/text).
+##### Defines a controller where each method returns a REST response (JSON/text).
 ---
 ## 7.3 @GetMapping / @PostMapping / @PutMapping / @DeleteMapping  
-Maps specific HTTP methods to controller methods.
+##### Maps specific HTTP methods to controller methods.
 ---
 ## 7.4 @RequestMapping  
-Defines the main URL path for a controller or method.
+##### Defines the main URL path for a controller or method.
 ---
 ## 7.5 @Service  
-Marks a class as a service component that contains business logic.
+##### Marks a class as a service component that contains business logic.
 ---
 ## 7.6 @Repository  
 Marks a class or interface as a data access layer component.
 ---
 ## 7.7 @Entity  
-Specifies that a class is a JPA entity mapped to a database table.
+##### Specifies that a class is a JPA entity mapped to a database table.
 ---
 ## 7.8 @Id  
-Marks the primary key field of an entity.
+##### Marks the primary key field of an entity.
 ---
 
 ## 7.10 @Autowired  
-Enables automatic dependency injection.
+##### Enables automatic dependency injection.
 ---
 ## 7.11 @Bean  
-Creates and registers a Spring-managed bean.
+##### Creates and registers a Spring-managed bean.
 ---
 ## 7.12 Lombok Annotations  
 (Helps reduce boilerplate code)
@@ -261,14 +261,14 @@ http://localhost:8080/hello
 ---
 Hello, Spring Boot!
 
-## 10. Conclusion <a id="10-conclusion"></a>
+# 10. Conclusion <a id="10-conclusion"></a>
 
 This documentation presented the fundamental concepts of Spring Boot, including project creation using Spring Initializr, Maven-based configuration, folder structure understanding, dependency usage, and creation of a basic REST API.  
 These foundations enable beginners to confidently build scalable Java applications using Spring Boot's simplified development model.
 
 ---
 
-## 11. References <a id="11-references"></a>
+# 11. References <a id="11-references"></a>
 
 1. Spring Boot Official Documentation – https://spring.io/projects/spring-boot  
 2. Maven Build Tool Documentation – https://maven.apache.org  
