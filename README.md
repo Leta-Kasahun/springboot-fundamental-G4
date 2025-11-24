@@ -109,6 +109,7 @@ project/
 └── README.md
 ```
 ---
+---
 
 ## 5. Important Files Explained  
 
@@ -239,6 +240,7 @@ public class HelloController {
         return "Hello, Spring Boot!";
     }
 }
+
 ```
 ---
 # 9. Running the Application (Windows)
