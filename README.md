@@ -110,7 +110,7 @@ project/
 ```
 ---
 
-## 5. Important Files Explained  
+# 5. Important Files Explained  
 
 | File/Folder | Purpose |
 |------------|---------|
@@ -126,7 +126,7 @@ project/
 # 6. Dependency Management 
 Below are the most commonly used Spring Boot dependencies required for fundamental backend development.
 
-## Spring Boot Starter (Core Starter)
+### Spring Boot Starter (Core Starter)
 
 Provides essential Spring Boot auto-configuration and basic dependencies.
 
@@ -135,7 +135,7 @@ Provides essential Spring Boot auto-configuration and basic dependencies.
     <artifactId>spring-boot-starter</artifactId>
 </dependency>
 
-## Spring Configuration Processor
+### Spring Configuration Processor
 
 Provides metadata and auto-completion for application.properties and custom configs.
 
@@ -145,7 +145,7 @@ Provides metadata and auto-completion for application.properties and custom conf
     <optional>true</optional>
 </dependency>
 
-## Spring Web
+### Spring Web
 
 Provides support for building REST APIs and web applications.
 
@@ -155,13 +155,13 @@ Provides support for building REST APIs and web applications.
 </dependency>
 
 
-## Spring Data JPA
+### Spring Data JPA
 Enables database access using the Java Persistence API (JPA).
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
 </depend
-## MySQL Database Driver
+### MySQL Database Driver
 
 Allows Spring Boot to connect to MySQL databases.
 
@@ -172,7 +172,7 @@ Allows Spring Boot to connect to MySQL databases.
 </dependency>
 
 
-## Lombok
+### Lombok
 Generates boilerplate code such as getters, setters, and constructors.
 <dependency>
     <groupId>org.projectlombok</groupId>
@@ -186,7 +186,7 @@ Below are the most commonly used annotations in Spring Boot essentials.
 ---
 
 ## 7.1 @SpringBootApplication  
-Marks the main entry point of a Spring Boot application and enables auto-configuration.
+  ##### Marks the main entry point of a Spring Boot application and enables auto-configuration.
 ---
 ## 7.2 @RestController  
 Defines a controller where each method returns a REST response (JSON/text).
