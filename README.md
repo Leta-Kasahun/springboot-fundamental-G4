@@ -146,7 +146,6 @@ Provides support for building REST APIs and web applications.
     <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 
-
 ### Spring Data JPA
 Enables database access using the Java Persistence API (JPA).
 <dependency>
